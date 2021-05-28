@@ -1,0 +1,67 @@
+.add-contract-page-body{
+    height: 100vh;
+    display: flex;
+}
+
+.add-contract-card{
+    width: 20%;
+    margin: auto auto 20px auto;
+}
+
+.add-contract-card-header{
+    text-align: center;
+}
+
+#pertamina-logo{
+    margin-bottom: 20px;
+}
+
+.add-contract-label{
+}
+
+.add-contract-input{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.date-picker-container{
+}
+
+#submit-button{
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #4287f5;
+}
+
+.go-to-mainpage-button{
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid rgb(20, 20, 20);
+}
+
+.go-to-mainpage-button a{
+    color: black;
+}
+
+/*For UpdateContract.js*/
+.cancel-button{
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    background-color: red;
+}
+
+.cancel-button a{
+    color: white;
+}

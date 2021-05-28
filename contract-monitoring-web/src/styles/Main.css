@@ -1,0 +1,68 @@
+.main-page-body{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.main-page-content{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.main-page-intro{
+    font-size: 30px;
+}
+
+.main-page-title{
+    margin-top: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.action-button{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 16px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button a{
+    color: black;
+}
+
+
+.main-page-table{
+    margin-top: 16px;
+}
+
+#contract-table {
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+#contract-table td, #contract-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#contract-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#contract-table tr:hover {background-color: #ddd;}
+
+#contract-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #337ab7;
+    color: white;
+}
+
+#contract-table-row td{
+    cursor: pointer;
+}

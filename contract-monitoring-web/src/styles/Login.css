@@ -1,0 +1,33 @@
+.login-page-body{
+    height: 100vh;
+    display: flex;
+}
+
+.login-card{
+    width: 20%;
+    margin: auto;
+}
+
+.login-card-header{
+    text-align: center;
+}
+
+#pertamina-logo{
+    height: 45px;
+}
+
+.login-input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#submit-button{
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: crimson;
+}

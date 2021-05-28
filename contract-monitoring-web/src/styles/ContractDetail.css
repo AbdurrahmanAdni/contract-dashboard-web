@@ -1,0 +1,61 @@
+.contract-detail-page-body{
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.contract-detail-page-content{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.contract-detail-table{
+    border: 1px solid #337ab7;
+    border-radius: 5px;
+}
+
+.contract-detail-table-header{
+    font-size: 36px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #337ab7;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#contract-detail-table-body{
+    width: 100%;
+    text-indent: initial;
+}
+
+#contract-detail-table-body td, #contract-detail-table-body th {
+    text-align: start;
+    padding: 8px;
+}
+
+#contract-detail-table-body tr:nth-child(odd){background-color: #f2f2f2;}
+
+.CDP-action-button-container{
+    margin-top: 20px;
+}
+
+.CDP-action-button{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update{
+    color: white;
+    background-color: #337ab7;
+}
+
+.delete{
+    color: white;
+    background-color: red;
+}
